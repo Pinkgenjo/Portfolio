@@ -1,0 +1,59 @@
+[
+    {
+        "title": "Projeto MiniMercado",
+        "imageSrc": [],
+        "description": "Este é um projeto de um MiniMercado desenvolvido para a disciplina de Fundamentos de Sistemas Web.",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "demo": "https://pinkgenjo.github.io/minimercado/index.html",
+        "source": "https://github.com/Pinkgenjo/minimercado"
+    },
+    {
+        "title": "Clone Disney+",
+        "imageSrc": [],
+        "description": "Uma Cópia da homepage do Disney+ desenvolvida para o Curso da Ebac.",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "demo": "https://clone-disneyplus-teal-alpha.vercel.app",
+        "source": "https://github.com/Pinkgenjo/clone_disneyplus"
+    },
+    {
+        "title": "Website de um Filme",
+        "imageSrc": [],
+        "description": "Website de um filme, desenvolvido para o curso da EBAC.",
+        "skills": [
+            "HTML",
+            "SCSS",
+            "JavaScript"
+        ],
+        "demo": "https://scott-pilgrim-page.vercel.app",
+        "source": "https://github.com/Pinkgenjo/scott_pilgrim_page"
+    },
+    {
+        "title": "RPG POO",
+        "imageSrc": [],
+        "description": "Um jogo de RPG simples desenvolvido em JavaScript, utilizando conceitos de Programação Orientada a Objetos.",
+        "skills": [
+            "JavaScript"
+        ],
+        "demo": [],
+        "source": "https://github.com/Pinkgenjo/RPG_POO"
+    },
+    {
+        "title": "Cafeteria",
+        "imageSrc": [],
+        "description": "Projeto de uma Cafeteria desenvolvido para o curso da EBAC.",
+        "skills": [
+            "HTML",
+            "CSS"
+        ],
+        "demo": "https://grao-brasileiro.vercel.app/?",
+        "source": "https://github.com/Pinkgenjo/Grao_Brasileiro"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "role": "Análise e Desenvolvimento de Sistemas: Full Stack e Mobile",
+        "organisation": "Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)",
+        "startDate": "Out, 2024",
+        "endDate": "Cursando",
+        "experiences": [
+            "Foco em lógica de programação, algoritmos e estruturas de dados.",
+            "Desenvolvimento de projetos acadêmicos para aplicar o conhecimento."
+        ],
+        "imageSrc": []
+    },
+    {
+        "role": "Desenvolvimento Full-Stack Python",
+        "organisation": "Escola Britânica de Artes Criativas e Tecnologia (EBAC)",
+        "startDate": "Mar, 2024",
+        "endDate": "Cursando",
+        "experiences": [
+            "Aprofundamento prático em tecnologias como React, JavaScript, HTML5 e CSS3.",
+            "Criação de projetos para o portfólio, simulando o ambiente do mercado."
+        ],
+        "imageSrc": []
+    }
+]
