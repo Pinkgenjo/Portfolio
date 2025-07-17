@@ -1,5 +1,5 @@
 import React from "react";
-import projects from "/src/data/projects.json";
+import projects from "../../data/projects.json";
 import styles from "./projects.module.css";
 
 export const Projects = () => {

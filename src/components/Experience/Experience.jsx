@@ -1,6 +1,6 @@
 import React from "react";
-import skills from "/src/data/skills.json";
-import history from "/src/data/history.json";
+import skills from "../../data/skills.json";
+import history from "../../data/history.json";
 import styles from "./experience.module.css";
 
 export const Experience = () => {
