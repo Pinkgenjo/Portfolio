@@ -7,19 +7,14 @@ export const Hero = () => {
     return (
         <section className={styles.container}>
             <div className={styles.content}>
-                <h1 className={styles.title}>Olá, eu sou Emerson Ferreira</h1>
+                <h1 className={styles.title}>Olá, eu sou o Emerson</h1>
                 <p className={styles.description}>
                     Estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia e desenvolvimento de software. Atualmente, estou focado em aprender e construir projetos com React e JavaScript.
                 </p>
-                <a href="mailto:emersonferreira.dev@gmail.com" className={styles.contactBtn}>
+                <a href="mailto:emersonferreira0802@gmail.com" className={styles.contactBtn}>
                     Fale Comigo
                 </a>
             </div>
-            <img
-                src={`${BASE_URL}assets/profile.png`}
-                alt="Imagem de perfil"
-                className={styles.heroImg}
-            />
             <div className={styles.topBlur} />
             <div className={styles.bottomBlur} />
         </section>

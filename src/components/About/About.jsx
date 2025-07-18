@@ -9,13 +9,13 @@ export const About = () => {
             <h2 className={styles.title}>Sobre</h2>
             <div className={styles.content}>
                 <img
-                    src={`${BASE_URL}assets/about.png`}
+                    src={`${BASE_URL}assets/about/laptop.png`}
                     alt="Imagem de um laptop"
                     className={styles.aboutImage}
                 />
                 <ul className={styles.aboutItems}>
                     <li className={styles.aboutItem}>
-                        <img src={`${BASE_URL}assets/cursorIcon.png`} alt="Ícone de cursor" />
+                        <img src={`${BASE_URL}assets/about/cursorIcon.png`} alt="Ícone de cursor" />
                         <div className={styles.aboutItemText}>
                             <h3>Foco em Frontend</h3>
                             <p>
@@ -24,7 +24,7 @@ export const About = () => {
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
-                        <img src={`${BASE_URL}assets/dbIcon.png`} alt="Ícone de banco de dados" />
+                        <img src={`${BASE_URL}assets/about/dbIcon.png`} alt="Ícone de banco de dados" />
                         <div className={styles.aboutItemText}>
                             <h3>Banco de Dados</h3>
                             <p>
@@ -33,11 +33,11 @@ export const About = () => {
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
-                        <img src={`${BASE_URL}assets/serverIcon.png`} alt="Ícone de servidor" />
+                        <img src={`${BASE_URL}assets/about/serverIcon.png`} alt="Ícone de servidor" />
                         <div className={styles.aboutItemText}>
                             <h3>Aprendendo Backend</h3>
                             <p>
-                                Atualmente, estou estudando Node.js para entender como criar APIs e sistemas completos que se conectam ao frontend e ao banco de dados.
+                                Atualmente, estou estudando Python para entender como criar APIs e sistemas completos que se conectam ao frontend e ao banco de dados.
                             </p>
                         </div>
                     </li>

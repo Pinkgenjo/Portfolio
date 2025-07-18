@@ -19,11 +19,6 @@ export const Projects = () => {
                 {projects.map((project, id) => {
                     return (
                         <div key={id} className={styles.projectCard}>
-                            <img
-                                src={`${BASE_URL}assets/projects/${project.imageSrc}`}
-                                alt={`Imagem de ${project.title}`}
-                                className={styles.image}
-                            />
                             <h3 className={styles.projectTitle}>{project.title}</h3>
                             <p className={styles.description}>{project.description}</p>
                             <ul className={styles.skills}>
