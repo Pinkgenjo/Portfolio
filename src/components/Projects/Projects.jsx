@@ -1,8 +1,17 @@
-import React from "react";
-import projects from "../../data/projects.json";
+import React, { useState, useEffect } from "react";
 import styles from "./projects.module.css";
 
+const BASE_URL = import.meta.env.BASE_URL;
+
 export const Projects = () => {
+    const [projects, setProjects] = useState([]);
+
+    useEffect(() => {
+        fetch(`${BASE_URL}data/projects.json`)
+            .then(response => response.json())
+            .then(data => setProjects(data));
+    }, []);
+
     return (
         <section className={styles.container} id="projects">
             <h2 className={styles.title}>Projetos</h2>
@@ -10,6 +19,11 @@ export const Projects = () => {
                 {projects.map((project, id) => {
                     return (
                         <div key={id} className={styles.projectCard}>
+                            <img
+                                src={`${BASE_URL}assets/projects/${project.imageSrc}`}
+                                alt={`Imagem de ${project.title}`}
+                                className={styles.image}
+                            />
                             <h3 className={styles.projectTitle}>{project.title}</h3>
                             <p className={styles.description}>{project.description}</p>
                             <ul className={styles.skills}>
